@@ -1,0 +1,12 @@
+target 'Download-Font-iOS', :exclusive => true do
+  pod "Download-Font-iOS", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "Download-Font-iOS", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
