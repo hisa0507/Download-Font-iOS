@@ -35,7 +35,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Getting Label More Richly in Your App!
 
-![Alt text](/Download-Font-iOS/Preferences/Images/before.png "Before")
+![Alt text](../Download-Font-iOS/Preferences/Images/before.png "Before")
 ![Alt text](/Download-Font-iOS/Preferences/Images/after.png "After")
 
 
