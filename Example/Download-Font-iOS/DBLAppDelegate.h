@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DBLDownloadFont.h"
 
 @interface DBLAppDelegate : UIResponder <UIApplicationDelegate>
 

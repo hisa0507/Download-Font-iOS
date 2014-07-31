@@ -13,6 +13,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [DBLDownloadFont setFontNameWithBlock:^(bool successful, NSString *error) {
+        if (successful) {
+            //successful status
+            UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];
+            self.window.rootViewController = [storyboard instantiateInitialViewController];
+        }
+        if (error) {
+            //error status
+            
+        }
+    } fontName:@"HiraMaruProN-W4"];
+    
     return YES;
 }
 							
