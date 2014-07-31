@@ -1,5 +1,5 @@
 PODS:
-  - Download-Font-iOS (0.1.0)
+  - Download-Font-iOS (1.0.0)
   - Expecta (0.3.1)
   - Expecta+Snapshots (1.2.1):
     - Expecta
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Download-Font-iOS: f0a3751e77ac83beda073f540db038dc32de8990
+  Download-Font-iOS: 3f4083c0547341359db94448a3b2a2de537bbb63
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Expecta+Snapshots: 30c28e3d8104665ee70e32df1cfc030bb37a8a6c
   FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0

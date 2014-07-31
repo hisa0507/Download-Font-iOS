@@ -1,5 +1,6 @@
 platform :ios, '7.0'
 pod 'Download-Font-iOS', :path => 'https://github.com/hisa0507/Download-Font-iOS.git'
+#pod 'Download-Font-iOS', :path => '../'
 
 target 'Download-Font-iOS', :exclusive => true do
   pod "Download-Font-iOS", :path => "../"

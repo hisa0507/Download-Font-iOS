@@ -8,8 +8,8 @@
 
 // Download-Font-iOS
 #define COCOAPODS_POD_AVAILABLE_Download_Font_iOS
-#define COCOAPODS_VERSION_MAJOR_Download_Font_iOS 0
-#define COCOAPODS_VERSION_MINOR_Download_Font_iOS 1
+#define COCOAPODS_VERSION_MAJOR_Download_Font_iOS 1
+#define COCOAPODS_VERSION_MINOR_Download_Font_iOS 0
 #define COCOAPODS_VERSION_PATCH_Download_Font_iOS 0
 
 // Expecta
