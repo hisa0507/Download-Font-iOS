@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author           = { "hisa0507" => "hungry0507@hotmail.com" }
   s.source           = { :git => "https://github.com/hisa0507/Download-Font-iOS.git", :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/heeesa'
-  sna.prefix_header_contents = ''
+  #sna.prefix_header_contents = ''
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
