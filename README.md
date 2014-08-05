@@ -126,5 +126,6 @@ hisa0507, hungry0507@hotmail.com
 
 ## License
 
-Download-Font-iOS is available under the MIT license. See the LICENSE file for more info.
+Download-Font-iOS is available under the MIT license. See the LICENSE file for more info.  
 
+<http://doublw.com>
