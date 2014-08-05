@@ -29,15 +29,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     } fontName:@"HiraMaruProN-W4"]; 
 ```  
 4. **ViewController.m**  
-    `self.label.font = [UIFont fontWithName:@"HiraMaruProN-W4" size:self.label.font.pointSize];`  
-  
+```
+    self.label.font = [UIFont fontWithName:@"HiraMaruProN-W4" size:self.label.font.pointSize];  
+```  
 
 
 
 ## Getting Label More Richly in Your App!
 
-![Alt text](../Download-Font-iOS/Preferences/Images/before.png "Before")
-![Alt text](/Download-Font-iOS/Preferences/Images/after.png "After")
+![Alt text](Example/Download-Font-iOS/Preferences/Images/before.png "Before")
+![Alt text](Example/Download-Font-iOS/Preferences/Images/after.png "After")
 
 
 
