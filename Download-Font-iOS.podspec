@@ -19,13 +19,14 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "hisa0507" => "hungry0507@hotmail.com" }
-  s.source           = { :git => "https://github.com/hisa0507/Download-Font-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hisa0507/Download-Font-iOS.git", :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/heeesa'
+  sna.prefix_header_contents = ''
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes/*.{h,m}'
+  s.source_files = 'Example/Download-Font-iOS/Classes/*.{h,m}'
   # s.resources = 'Pod/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
