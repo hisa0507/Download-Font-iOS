@@ -15,7 +15,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 2. Then "pod install"  
   
 3. **Appdelegate.m**  
-        [DBLDownloadFont setFontNameWithBlock:^(bool successful, NSString *error) {  
+        [DBLDownloadFont setFontNameWithBlock:^(bool successful, NSString *error) {
             if (successful) {  
                 //successful status  
                 UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];  
