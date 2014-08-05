@@ -16,15 +16,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
   
 3. **Appdelegate.m**  
     [DBLDownloadFont setFontNameWithBlock:^(bool successful, NSString *error) {
-    if (successful) {  
-        //successful status  
-        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];  
-        self.window.rootViewController = [storyboard instantiateInitialViewController];  
-    } 
-    if (error) { 
-        //error status 
-          
-    }  
+        if (successful) {  
+            //successful status  
+            UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];  
+            self.window.rootViewController = [storyboard instantiateInitialViewController];  
+        } 
+        if (error) { 
+            //error status 
+              
+        }  
     } fontName:@"HiraMaruProN-W4"]; 
 
 4. **ViewController.m**  
