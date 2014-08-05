@@ -8,28 +8,28 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.  
+  
+1. Now Available "Download-Font-iOS' ~> '1.0.0'  
+  
+2. Then "pod install"  
+  
+3. **Appdelegate.m**  
+        [DBLDownloadFont setFontNameWithBlock:^(bool successful, NSString *error) {  
+            if (successful) {  
+                //successful status  
+                UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];  
+                self.window.rootViewController = [storyboard instantiateInitialViewController];  
+            } 
+            if (error) { 
+                //error status 
+                  
+            }  
+        } fontName:@"HiraMaruProN-W4"]; 
 
-1. Now Available "Download-Font-iOS' ~> '1.0.0'
-
-2. Then "pod install"
-
-3. *Appdelegate.m*
-        [DBLDownloadFont setFontNameWithBlock:^(bool successful, NSString *error) {
-            if (successful) {
-                //successful status
-                UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]];
-                self.window.rootViewController = [storyboard instantiateInitialViewController];
-            }
-            if (error) {
-                //error status
-
-            }
-        } fontName:@"HiraMaruProN-W4"];
-
-4. *ViewController.m*
-        self.label.font = [UIFont fontWithName:@"HiraMaruProN-W4" size:self.label.font.pointSize];
-
+4. **ViewController.m**  
+        self.label.font = [UIFont fontWithName:@"HiraMaruProN-W4" size:self.label.font.pointSize];  
+  
 
 
 
